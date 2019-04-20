@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205DCA7A226B41C700625667 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DCA79226B41C700625667 /* ViewModel.swift */; };
 		A17B1A1D21CC0F84002F67D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B1A1C21CC0F84002F67D4 /* AppDelegate.swift */; };
 		A17B1A2221CC0F84002F67D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17B1A2021CC0F84002F67D4 /* Main.storyboard */; };
 		A17B1A2421CC0F86002F67D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17B1A2321CC0F86002F67D4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		205DCA79226B41C700625667 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9942CDA69757C58A2ED83A03 /* Pods-RxSwiftIn4Hours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftIn4Hours.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftIn4Hours/Pods-RxSwiftIn4Hours.debug.xcconfig"; sourceTree = "<group>"; };
 		A17B1A1921CC0F84002F67D4 /* RxSwiftIn4Hours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftIn4Hours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17B1A1C21CC0F84002F67D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				A17B1A1C21CC0F84002F67D4 /* AppDelegate.swift */,
 				A19086DD21CC9680001EA064 /* ViewController.swift */,
+				205DCA79226B41C700625667 /* ViewModel.swift */,
 				A17B1A2021CC0F84002F67D4 /* Main.storyboard */,
 				A17B1A2321CC0F86002F67D4 /* Assets.xcassets */,
 				A17B1A2521CC0F86002F67D4 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19086DE21CC9680001EA064 /* ViewController.swift in Sources */,
+				205DCA7A226B41C700625667 /* ViewModel.swift in Sources */,
 				A17B1A1D21CC0F84002F67D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
